@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Group-Id: com.vinted.automerger
+Minimum-Java-Version: 1.8
+Short-Name: git-automerger
+Extension-Name: git-automerger
+Long-Name: Git Automerger Plugin
+Jenkins-Version: 2.303.3
+Url: https://github.com/jenkinsci/git-automerger-plugin
+Plugin-Version: 0.6.3
+Plugin-Developers: Andrius Semionovas:neworldlt:aneworld@gmail.com
+

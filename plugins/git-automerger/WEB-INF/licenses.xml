@@ -1,0 +1,62 @@
+<l:dependencies xmlns:l='licenses' version='0.6.2' artifactId='jenkins-plugin' groupId='com.vinted.automerger'>
+  <l:dependency version='0.6.2' artifactId='jenkins-plugin' groupId='com.vinted.automerger' name='Git Automerger Plugin' url='https://github.com/jenkinsci/git-automerger-plugin'>
+    <l:description>Tool for merging release branches into master.</l:description>
+    <l:license url='https://raw.githubusercontent.com/jenkinsci/git-automerger/master/LICENSE' name='MIT' />
+  </l:dependency>
+  <l:dependency version='1.0.0' artifactId='slf4j-streamadapter' groupId='com.vinted' name='vinted/slf4j-streamadapter' url='https://github.com/vinted/slf4j-streamadapter'>
+    <l:description>SLF4J adapter for logging into custom output stream</l:description>
+    <l:license url='https://api.github.com/licenses/mit' name='MIT License' />
+  </l:dependency>
+  <l:dependency version='1.6.0' artifactId='kotlin-stdlib-jdk8' groupId='org.jetbrains.kotlin' name='Kotlin Stdlib Jdk8' url='https://kotlinlang.org/'>
+    <l:description>Kotlin Standard Library JDK 8 extension</l:description>
+    <l:license url='http://www.apache.org/licenses/LICENSE-2.0.txt' name='The Apache License, Version 2.0' />
+  </l:dependency>
+  <l:dependency version='5.13.0.202109080827-r' artifactId='org.eclipse.jgit' groupId='org.eclipse.jgit' name='JGit - Core' url=''>
+    <l:description>
+    Repository access and algorithms
+  </l:description>
+  </l:dependency>
+  <l:dependency version='3.6.1' artifactId='maven-artifact' groupId='org.apache.maven' name='Maven Artifact' url=''>
+    <l:description></l:description>
+  </l:dependency>
+  <l:dependency version='1.7.26' artifactId='slf4j-simple' groupId='org.slf4j' name='SLF4J Simple Binding' url='http://www.slf4j.org'>
+    <l:description>SLF4J Simple binding</l:description>
+  </l:dependency>
+  <l:dependency version='1.7.30' artifactId='slf4j-api' groupId='org.slf4j' name='SLF4J API Module' url='http://www.slf4j.org'>
+    <l:description>The slf4j API</l:description>
+  </l:dependency>
+  <l:dependency version='1.6.0' artifactId='kotlin-stdlib-jdk7' groupId='org.jetbrains.kotlin' name='Kotlin Stdlib Jdk7' url='https://kotlinlang.org/'>
+    <l:description>Kotlin Standard Library JDK 7 extension</l:description>
+    <l:license url='http://www.apache.org/licenses/LICENSE-2.0.txt' name='The Apache License, Version 2.0' />
+  </l:dependency>
+  <l:dependency version='1.6.0' artifactId='kotlin-stdlib' groupId='org.jetbrains.kotlin' name='Kotlin Stdlib' url='https://kotlinlang.org/'>
+    <l:description>Kotlin Standard Library for JVM</l:description>
+    <l:license url='http://www.apache.org/licenses/LICENSE-2.0.txt' name='The Apache License, Version 2.0' />
+  </l:dependency>
+  <l:dependency version='1.1.12' artifactId='JavaEWAH' groupId='com.googlecode.javaewah' name='JavaEWAH' url='https://github.com/lemire/javaewah'>
+    <l:description>The bit array data structure is implemented in Java as the BitSet class. Unfortunately, this fails to scale without compression.
+  JavaEWAH is a word-aligned compressed variant of the Java bitset class. It uses a 64-bit run-length encoding (RLE) compression scheme.
+  The goal of word-aligned compression is not to achieve the best compression, but rather to improve query processing time. Hence, we try to save CPU cycles, maybe at the expense of storage. However, the EWAH scheme we implemented is always more efficient storage-wise than an uncompressed bitmap (implemented in Java as the BitSet class). Unlike some alternatives, javaewah does not rely on a patented scheme. </l:description>
+    <l:license url='http://www.apache.org/licenses/LICENSE-2.0.txt' name='Apache 2' />
+  </l:dependency>
+  <l:dependency version='3.2.0' artifactId='plexus-utils' groupId='org.codehaus.plexus' name='Plexus Common Utilities' url=''>
+    <l:description>A collection of various utility classes to ease working with strings, files, command lines, XML and
+    more.
+  </l:description>
+  </l:dependency>
+  <l:dependency version='3.8.1' artifactId='commons-lang3' groupId='org.apache.commons' name='Apache Commons Lang' url='http://commons.apache.org/proper/commons-lang/'>
+    <l:description>
+  Apache Commons Lang, a package of Java utility classes for the
+  classes that are in java.lang's hierarchy, or are considered to be so
+  standard as to justify existence in java.lang.
+  </l:description>
+  </l:dependency>
+  <l:dependency version='13.0' artifactId='annotations' groupId='org.jetbrains' name='IntelliJ IDEA Annotations' url='http://www.jetbrains.org'>
+    <l:description>A set of annotations used for code inspection support and code documentation.</l:description>
+    <l:license url='http://www.apache.org/licenses/LICENSE-2.0.txt' name='The Apache Software License, Version 2.0' />
+  </l:dependency>
+  <l:dependency version='1.6.0' artifactId='kotlin-stdlib-common' groupId='org.jetbrains.kotlin' name='Kotlin Stdlib Common' url='https://kotlinlang.org/'>
+    <l:description>Kotlin Common Standard Library</l:description>
+    <l:license url='http://www.apache.org/licenses/LICENSE-2.0.txt' name='The Apache License, Version 2.0' />
+  </l:dependency>
+</l:dependencies>
