@@ -4,7 +4,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>io.jenkins.plugins</groupId>
   <artifactId>popper2-api</artifactId>
-  <version>2.10.2-1</version>
+  <version>2.11.0-1</version>
   <packaging>hpi</packaging>
   <name>Popper.js 2 API Plugin</name>
   <description>Provides Popper.js 2.x for Jenkins plugins.</description>
@@ -26,7 +26,7 @@
   <scm>
     <connection>scm:git:git://github.com/jenkinsci/popper2-api-plugin.git</connection>
     <developerConnection>scm:git:git@github.com:jenkinsci/popper2-api-plugin.git</developerConnection>
-    <tag>v2.10.2-1</tag>
+    <tag>v2.11.0-1</tag>
     <url>https://github.com/jenkinsci/popper2-api-plugin</url>
   </scm>
   <distributionManagement>
@@ -43,7 +43,7 @@
     <dependency>
       <groupId>org.jenkins-ci.main</groupId>
       <artifactId>jenkins-core</artifactId>
-      <version>2.263.1</version>
+      <version>2.289.1</version>
       <scope>provided</scope>
     </dependency>
     <dependency>
@@ -55,7 +55,7 @@
     <dependency>
       <groupId>com.github.spotbugs</groupId>
       <artifactId>spotbugs-annotations</artifactId>
-      <version>4.4.1</version>
+      <version>4.4.2</version>
       <scope>provided</scope>
       <optional>true</optional>
     </dependency>
@@ -82,7 +82,7 @@
     <dependency>
       <groupId>org.kohsuke</groupId>
       <artifactId>access-modifier-annotation</artifactId>
-      <version>1.24</version>
+      <version>1.25</version>
       <scope>provided</scope>
       <exclusions>
         <exclusion>
@@ -107,7 +107,7 @@
       <plugin>
         <groupId>org.jenkins-ci.tools</groupId>
         <artifactId>maven-hpi-plugin</artifactId>
-        <version>3.18</version>
+        <version>3.20</version>
         <extensions>true</extensions>
       </plugin>
       <plugin>

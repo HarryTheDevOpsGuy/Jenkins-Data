@@ -4,7 +4,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>org.jenkins-ci.plugins</groupId>
   <artifactId>pipeline-graph-analysis</artifactId>
-  <version>1.12</version>
+  <version>188.v3a01e7973f2c</version>
   <packaging>hpi</packaging>
   <name>Pipeline Graph Analysis Plugin</name>
   <description>The Jenkins Plugins Parent POM Project</description>
@@ -20,7 +20,7 @@
   <scm>
     <connection>scm:git:git://github.com/jenkinsci/pipeline-graph-analysis-plugin.git</connection>
     <developerConnection>scm:git:git@github.com:jenkinsci/pipeline-graph-analysis-plugin.git</developerConnection>
-    <tag>pipeline-graph-analysis-1.12</tag>
+    <tag>3a01e7973f2c478753ecc0cab74906efb3850199</tag>
     <url>https://github.com/jenkinsci/pipeline-graph-analysis-plugin</url>
   </scm>
   <distributionManagement>
@@ -37,25 +37,25 @@
     <dependency>
       <groupId>org.jenkins-ci.plugins.workflow</groupId>
       <artifactId>workflow-job</artifactId>
-      <version>2.41</version>
+      <version>1145.v7f2433caa07f</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>org.jenkins-ci.plugins.workflow</groupId>
       <artifactId>workflow-api</artifactId>
-      <version>2.47</version>
+      <version>1105.v3de5e2efac97</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>org.jenkins-ci.plugins</groupId>
       <artifactId>pipeline-input-step</artifactId>
-      <version>2.12</version>
+      <version>427.va6441fa17010</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>org.jenkins-ci.plugins.workflow</groupId>
       <artifactId>workflow-step-api</artifactId>
-      <version>2.24</version>
+      <version>615.vb09dac339255</version>
       <scope>compile</scope>
     </dependency>
     <dependency>

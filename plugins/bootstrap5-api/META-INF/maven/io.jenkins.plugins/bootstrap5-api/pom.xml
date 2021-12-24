@@ -4,7 +4,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>io.jenkins.plugins</groupId>
   <artifactId>bootstrap5-api</artifactId>
-  <version>5.1.3-3</version>
+  <version>5.1.3-4</version>
   <packaging>hpi</packaging>
   <name>Bootstrap 5 API Plugin</name>
   <description>Provides Bootstrap 5 for Jenkins plugins.</description>
@@ -26,7 +26,7 @@
   <scm>
     <connection>scm:git:git://github.com/jenkinsci/bootstrap5-api-plugin.git</connection>
     <developerConnection>scm:git:git@github.com:jenkinsci/bootstrap5-api-plugin.git</developerConnection>
-    <tag>v5.1.3-3</tag>
+    <tag>v5.1.3-4</tag>
     <url>https://github.com/jenkinsci/bootstrap5-api-plugin</url>
   </scm>
   <distributionManagement>
@@ -43,13 +43,13 @@
     <dependency>
       <groupId>io.jenkins.plugins</groupId>
       <artifactId>popper2-api</artifactId>
-      <version>2.10.2-1</version>
+      <version>2.11.0-1</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>io.jenkins.plugins</groupId>
       <artifactId>font-awesome-api</artifactId>
-      <version>5.15.4-1</version>
+      <version>5.15.4-5</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
@@ -119,7 +119,7 @@
       <plugin>
         <groupId>org.jenkins-ci.tools</groupId>
         <artifactId>maven-hpi-plugin</artifactId>
-        <version>3.19</version>
+        <version>3.20</version>
         <extensions>true</extensions>
       </plugin>
       <plugin>
